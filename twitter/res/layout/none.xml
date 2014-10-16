@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+      <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+
+    >
+    <ImageView android:id="@+id/numberDays"  
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+       android:paddingRight="5dp"
+        android:src="@drawable/retweet_hover" />
+     <TextView
+        android:id="@+id/ret_count"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:paddingRight="10dp"
+        />
+    <ImageView android:src="@drawable/fav" 
+        android:layout_height="wrap_content" 
+        android:layout_width="wrap_content"
+        android:scaleType="fitStart"
+          android:paddingRight="15dp"
+        
+        android:id="@+id/daysText"></ImageView>
+     <TextView
+        android:id="@+id/fav_count"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+         android:paddingRight="20dp"
+        
+        />
+</LinearLayout>
+ 
+    
+
+</LinearLayout>

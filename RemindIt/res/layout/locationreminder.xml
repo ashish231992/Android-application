@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation ="vertical" 
+ >
+
+    
+    
+    <TextView
+        android:id="@+id/tvloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Location" />
+
+    
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteloc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="" >
+
+        
+    </AutoCompleteTextView>
+    
+
+<TextView
+    android:id="@+id/tvnote"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter Note" />
+
+<EditText
+    android:id="@+id/etnote"
+    android:layout_width="match_parent"
+    android:layout_height="67dp"
+    android:ems="10"
+    android:inputType="textMultiLine" >
+
+   
+</EditText>
+
+<TextView
+    android:id="@+id/tvresult"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Loading..........." />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button
+    android:id="@+id/btsearch"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Set reminder !!!" />
+     <Button
+    android:id="@+id/clearall"
+    android:layout_gravity="right"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Clear" />
+   </LinearLayout>
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.MapFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" />
+
+</LinearLayout>

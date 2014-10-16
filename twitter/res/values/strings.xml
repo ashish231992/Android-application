@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ankurtest1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+      
+    <string name="title_activity_leitor">Tweets de seu time</string><string name="menu_settings">Configurações</string>
+    
+    <string name="tweet">tweet</string>
+    
+    <string name="corinthians">Corinthians</string>
+    <string name="flamengo">Flamengo</string>
+    <string name="sao_paulo">São Paulo</string>
+    <string name="vasco">Vasco</string>
+    <string name="nome">Nome</string><string name="usuario">Usuário</string><string name="imagem_perfil">Imagem de perfil</string>
+    
+    <string name="mensagem">Mensagem</string>
+    <string name="data_criacao">Data de criação</string>
+    <string name="action_search">action_search</string>
+    <string name="action_refresh">action_refresh</string>
+
+</resources>
+

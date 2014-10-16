@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/camera_cap"
+          android:icon="@drawable/camera_image_icon"
+          android:title="Home"
+          android:showAsAction="always" />
+     
+    <item android:id="@+id/video_cap"
+          android:icon="@drawable/video_icon"
+          android:title="Search"
+          android:showAsAction="always"/>
+     
+  <item android:id="@+id/upload"
+          android:icon="@drawable/upload_image"
+          android:title="upload"
+          android:showAsAction="always"/>
+  	
+  
+</menu>
